@@ -1,0 +1,111 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #cccccc;
+    padding: 20px 0px;
+}
+
+.encabezado{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #e73636;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 38px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 21px;
+    font-style: italic;
+    margin: 0 0 10px ;
+}
+
+.input_padron{
+    display: block;
+    margin: 0 0 20px ;
+    padding: 10px 26px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.send{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: beige;
+    background: rgb(216, 152, 34);
+    border: 2px solid #232525;
+    border-radius: 10px;
+    transition: 1.4s all;
+    cursor: pointer;
+}
+
+.send:hover{
+    background: darkorange;
+    transform: scale(1.14);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    background-color: #232525;
+    padding: 40px;
+}
+
+.copy{
+    color: azure;
+    font-size: 14px;
+    margin: 15px;
+}

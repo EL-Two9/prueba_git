@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #cccccc;
+    padding: 20px 0px;
+}
+
+.encabezado{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #e73636;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #232525;  /*Otra forma de hacerlo*/
+    border-radius: 16px;
+
+
+    /*border-color: #000000;
+    border-width: 2px;
+    border-style: solid;/*Otra forma de hacerlo*/
+}
+
+.productos li:hover{
+    border-color: #e73636;
+}
+
+.productos li:active{
+    border-color: #4fc2d6;
+}
+
+.productos h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 28px;
+}
+
+.producto_descripcion{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.producto_precio{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #232525;
+    padding: 40px;
+}
+
+.copy{
+    color: azure;
+    font-size: 14px;
+    margin: 15px;
+}
+
+
+/*@media (max-width: 480px) {
+    .productos li{
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #232525;  /*Otra forma de hacerlo
+        border-radius: 16px;
+    
+    
+        /*border-color: #000000;
+        border-width: 2px;
+        border-style: solid;/*Otra forma de hacerlo
+    }
+}/*
